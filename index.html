@@ -4,83 +4,234 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Patakla! – Privacy Policy / Gizlilik Politikası</title>
+<meta name="description" content="Privacy policy of Patakla!, an iPhone game by SerdarGames: ads by Google AdMob, in-app purchases through Apple, your choices.">
 <style>
-  :root { --ink:#2b2140; --muted:#6b6380; --bg:#fff8f0; --line:#e6dccf; --accent:#d9472b; color-scheme: light dark; }
-  @media (prefers-color-scheme: dark) { :root { --ink:#efe9f7; --muted:#b4abc4; --bg:#1d1726; --line:#3b3148; --accent:#ff8a6e; } }
+  :root { --ink:#2b2140; --muted:#6b6380; --bg:#fff8f0; --card:#ffffff; --line:#e6dccf; --accent:#d9472b; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#efe9f7; --muted:#b4abc4; --bg:#1d1726; --card:#271f33; --line:#3b3148; --accent:#ff8a6e; } }
+  * { box-sizing:border-box; }
   body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
   main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
   nav { display:flex; gap:12px; justify-content:flex-end; font-size:15px; flex-wrap:wrap; }
   h1 { color:var(--accent); font-size:1.6rem; margin:8px 0 2px; line-height:1.25; }
   h2 { font-size:1.15rem; margin-top:2rem; }
+  h3 { font-size:1.02rem; margin:1.4rem 0 .3rem; }
   .muted { color:var(--muted); font-size:.95rem; }
+  .box { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:4px 16px; }
   a { color:var(--accent); overflow-wrap:anywhere; }
   hr { border:none; border-top:1px solid var(--line); margin:3rem 0; }
+  li { margin:4px 0; }
+  .scroll { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:var(--card); }
 </style>
 </head>
 <body>
 <main>
 <nav aria-label="Language"><a href="#en">English</a><a href="#tr" lang="tr">Türkçe</a><a href="support.html">Support / Destek</a></nav>
 
+<!-- ============================================================ ENGLISH -->
 <article id="en" lang="en">
 <h1>Patakla! – Privacy Policy</h1>
-<p class="muted">Effective date: 17 November 2026 · Developer: SerdarGames</p>
+<p class="muted">Effective date: 17 November 2026 · Last updated: 21 November 2026 · Developer: SerdarGames</p>
 
-<h2>Summary</h2>
-<p>Patakla! is a single-player game that works fully offline. <strong>We do not collect, store, share or sell any personal data.</strong>
-The game has no accounts, no ads, no in-app purchases, no analytics, no tracking and no third-party SDKs that collect data. It does not connect to the internet.</p>
+<p><strong>Patakla!</strong> is a single-player comedy beat 'em up for iPhone in which Kebapçı Usta and his friends chase cartoon aliens through seven stages in Türkiye. It is made by <strong>SerdarGames</strong>, an individual developer who appears as the seller on the App Store ("we", "us"). The game has no accounts and no servers of its own, so most of this page is about the two outside services built into it: Google's ads and Unity's purchase library. <a href="#tr" lang="tr">Türkçe metin aşağıdadır.</a></p>
 
-<h2>Data stored on your device</h2>
-<p>Your settings (sound, music, vibration, blood effects, language) and your progress (unlocked stages, stars, best scores, the in-game "teeth" currency,
-unlocked heroes, companions, weapon upgrades and skins, daily reward and daily mission progress) are saved in a small file inside the game's own storage on your device.
-This file never leaves your device and is deleted when you uninstall the game. Daily rewards use only your device's clock; nothing is sent anywhere.</p>
+<div class="box">
+<p><strong>In short</strong></p>
+<ul>
+  <li>You play without signing in. The game never asks for your name, e-mail address, phone number, contacts, photos, camera, microphone or GPS location.</li>
+  <li>Your progress is a file on your iPhone. Nothing from it reaches us: we have no server to receive it.</li>
+  <li><strong>Google AdMob</strong> shows the ads, and Google's consent tool asks for your ad choices. Both collect device and usage data (see <a href="#google">Google AdMob</a>).</li>
+  <li><strong>Apple</strong> takes the payment for <strong>NO ADS</strong> and teeth packs. <strong>Unity In-App Purchasing</strong>, the library that talks to the App Store, reports purchase events with device details to Unity (see <a href="#unity">Unity In-App Purchasing</a>).</li>
+  <li>The choices are yours: ad consent in the game, tracking in iOS Settings, and NO ADS to remove full-screen ads (see <a href="#choices">Your controls</a>).</li>
+  <li>We do not sell personal information for money.</li>
+</ul>
+</div>
 
-<h2>Permissions</h2>
-<p>The game does not request access to your camera, microphone, location, photos, contacts or motion data, and does not ask to track you.
-On Android it uses the standard vibration permission for short haptic feedback, which you can turn off in Settings.</p>
+<h2 id="phone">What stays on your iPhone</h2>
+<p>The game keeps one small save file in its own storage on the phone. It holds:</p>
+<ul>
+  <li>settings: sound, music, vibration, the green goo effect and the language;</li>
+  <li>progress: unlocked stages, stars, best scores, Horde Mode records, your teeth (the in-game currency), unlocked heroes, buddies, weapon upgrades and finishes, and daily reward and daily mission progress;</li>
+  <li>purchase and ad bookkeeping: whether you own NO ADS, the IDs of purchases already credited (so a teeth pack is never added twice) and a few ad counters, for example when the last full-screen ad was shown.</li>
+</ul>
+<p>Google's consent tool also keeps your consent choice on the phone. Daily rewards use only the phone's clock. The iOS app sandbox protects the file, and deleting the app deletes it. NO ADS can be restored after a reinstall; teeth, like the rest of your progress, exist only in this file.</p>
 
-<h2>Children</h2>
-<p>The game contains cartoon fantasy violence and is not directed at children under 13. We do not knowingly collect any data from anyone.</p>
+<h2 id="others">Who else receives data</h2>
+<p>Only the providers the game needs in order to work:</p>
+<div class="scroll"><table>
+  <tr><th>Provider</th><th>What for</th><th>Policy</th></tr>
+  <tr><td>Google (AdMob, User Messaging Platform)</td><td>Ads, ad measurement, consent form</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+  <tr><td>Unity Technologies (Unity IAP)</td><td>Processing in-app purchases and purchase analytics</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Player Privacy Policy</a></td></tr>
+  <tr><td>Apple</td><td>App distribution, payments, tracking permission</td><td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td></tr>
+  <tr><td>Google (Gmail), only if you e-mail us</td><td>Support e-mail</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+</table></div>
+<p>Each of them works under its own privacy policy and data protection terms and protects user data at least as well as this policy describes. Google's and Unity's software sends data over encrypted (HTTPS) connections. Nobody else receives data from the game.</p>
 
-<h2>Opening links</h2>
-<p>The "Privacy Policy" button in the game opens this page in your browser. Your browser's own privacy policy applies to that visit.</p>
+<h3 id="google">Google AdMob (ads) and Google's consent tool</h3>
+<p>Ads appear in two ways:</p>
+<ul>
+  <li><strong>Full-screen ads</strong> can come up after the results screen of a stage or a Horde Mode run, as you move on. They never interrupt play, never appear before you have cleared Galata Sahili and Bebek Sahili (the first two stages), and come at most once every few minutes.</li>
+  <li><strong>Rewarded ads</strong> play only when you ask for one: to get back up after a knockout (once per run), or to play one run with a hero you have not unlocked yet. You can always decline. If no ad can be loaded, for example offline, you get the reward anyway.</li>
+</ul>
+<p>To serve ads, cap how often they show, measure them, fight fraud and run analytics, Google's software in the app collects:</p>
+<ul>
+  <li><strong>Device identifiers:</strong> Apple's advertising identifier (IDFA), <strong>only if you allow tracking</strong> when iOS asks; otherwise identifiers limited to this app or developer (such as the identifier for vendors, IDFV) and Google's own app-scoped identifiers.</li>
+  <li><strong>IP address</strong> and the approximate (coarse) location worked out from it, such as country or region. Google's consent tool uses it as well, to decide which privacy rules apply to you. The game never accesses GPS location.</li>
+  <li><strong>Ad activity:</strong> ads requested and shown, taps on ads, rewarded ads watched to the end, and app launches.</li>
+  <li><strong>Device and app details:</strong> phone model, iOS version, language and app version.</li>
+  <li><strong>Diagnostics:</strong> crash and performance data from the ad software.</li>
+</ul>
+<p>You see personalised ads only where you have given the required consent and allowed tracking. Otherwise Google may show non-personalised or limited ads chosen by context and approximate location. The game limits ads to content rated PG or lower.</p>
+<p>With <strong>NO ADS</strong> there are no full-screen ads, and the revive and the hero try-out come without an ad (still once per run). From the next launch on, the game no longer starts Google's ad software and no longer shows the tracking prompt.</p>
+<p>How Google uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> · Google Privacy Policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
 
-<h2>Changes</h2>
-<p>If a future version adds features that process data (for example ads or purchases), this policy will be updated before that version is released, and the game will ask for any consent that the law requires.</p>
+<h3 id="unity">Unity In-App Purchasing and Apple</h3>
+<p>Apple processes every payment. We never see card or payment details, and the App Store shows real-money prices in your local currency.</p>
+<p>To talk to the App Store, the game uses <strong>Unity In-App Purchasing</strong>, a library by Unity Technologies. Whenever a purchase starts, completes or fails, the library sends Unity a <strong>purchase event</strong> with the product, price and currency, the transaction ID and Apple's transaction data, the time, and device details: phone model, iOS version, language and region settings, total storage capacity, time since the phone was last started, app version, the identifier for vendors (IDFV), and a random Unity installation ID and session ID. Unity uses these to run, secure and analyse its purchase service. The library is set up so that it does not read the advertising identifier (IDFA). Unity's policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a>.</p>
 
-<h2>Contact</h2>
-<p>E-mail: <a href="mailto:helvacikaraserdar@gmail.com">helvacikaraserdar@gmail.com</a> · Support page: <a href="support.html">serdarhelvacikara.github.io/patakla-privacy/support.html</a></p>
+<h2 id="buying">Purchases in the game</h2>
+<ul>
+  <li><strong>NO ADS</strong> is bought once and belongs to your Apple Account. You can restore it at any time with <strong>SHOP → RESTORE PURCHASES</strong> or <strong>SETTINGS → RESTORE PURCHASES</strong>.</li>
+  <li><strong>Teeth packs</strong> are consumable. Each one adds a fixed number of teeth to your in-game wallet, and that number is shown before you buy. Teeth never expire, there are no random rewards, and bought teeth are kept only on your phone with the rest of your progress.</li>
+  <li>Anything priced in teeth (heroes, buddies, upgrades and finishes) can also be earned in play. Every purchase is optional.</li>
+</ul>
+
+<h2 id="choices">Your controls</h2>
+<ul>
+  <li><strong>Ad consent</strong> (EEA, UK, Switzerland and other regions that require it): Google's consent form appears when you first play. To review, change or withdraw your choice later, open <strong>SETTINGS</strong> on the main menu and tap <strong>PRIVACY OPTIONS</strong>. The button is there whenever your region requires a consent choice.</li>
+  <li><strong>Tracking</strong> (App Tracking Transparency): iOS asks once whether Patakla! may track you. You can change the answer whenever you like in iOS <strong>Settings → Privacy &amp; Security → Tracking</strong> or <strong>Settings → Patakla! → Allow Tracking</strong>. Without permission the advertising identifier stays unused and you are not tracked across other companies' apps and websites. The game plays the same either way.</li>
+  <li><strong>Google ad personalisation:</strong> <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+  <li><strong>US state privacy laws</strong> (California and others): to opt out of the "sale" or "sharing" of personal information for targeted advertising, leave tracking off and, where it is shown, use SETTINGS → PRIVACY OPTIONS. If Google shows a US state privacy message in the game, you can choose there as well.</li>
+  <li><strong>No full-screen ads at all:</strong> buy NO ADS in the SHOP.</li>
+</ul>
+
+<h2 id="keeping">Legal grounds, transfers and how long data is kept</h2>
+<p>Where the GDPR or UK GDPR applies, your <strong>consent</strong> (given in Google's consent form and in Apple's tracking prompt) is the basis for personalised ads, consent-based ad measurement and access to the advertising identifier. <strong>Legitimate interests</strong> cover the non-personalised or limited ads that keep the game running, fraud prevention and diagnostics. Processing a purchase is <strong>necessary to deliver what you bought</strong>. Google and Unity may handle data outside your country, the United States included, relying on safeguards like the European Commission's Standard Contractual Clauses or the EU–U.S. Data Privacy Framework.</p>
+<ul>
+  <li>The save file on your phone stays until you delete the app.</li>
+  <li>We keep nothing from the game, so we have nothing to delete. Support e-mails are deleted on request.</li>
+  <li>Google keeps advertising data as described at <a href="https://policies.google.com/technologies/retention">policies.google.com/technologies/retention</a>; Unity and Apple keep data as their own policies describe.</li>
+</ul>
+
+<h2 id="rights">Your rights</h2>
+<p>Privacy laws such as the GDPR and UK GDPR, Türkiye's KVKK and US state laws (the CCPA/CPRA, for example) may give you rights over your personal data, depending on where you live: to see it, have it corrected or deleted, or get a copy you can take elsewhere; to object to or limit its use; to withdraw consent whenever you like, without affecting earlier processing; to opt out of its sale or sharing and of targeted advertising; and to use any of these rights without being treated differently. Your local data protection authority also accepts complaints.</p>
+<p>To use these rights for data held by Google or Unity, use their privacy tools linked above, or write to us and we will help you send the request. We never receive data that identifies you, so we cannot look up records ourselves.</p>
+
+<h2 id="children">Children and the age rating</h2>
+<p>Patakla! shows cartoon fantasy violence and carries a 13+ age rating on the App Store. It is not made for children under 13, and we do not knowingly collect personal information from anyone below 13 (or below the minimum age where you live). Ads stay within content rated PG or lower. Screen Time and the iOS privacy settings let parents control purchases and tracking. If a child may have shared personal information, write to us and we will help you ask Google or Unity to delete it.</p>
+
+<h2 id="email">If you e-mail us</h2>
+<p>The game sends us nothing, and we have no account system, analytics of our own or servers, so we cannot see or look up individual players. An e-mail gives us your address and your message. We use them only to reply and delete them when you ask.</p>
+
+<h2 id="contact">Changes and contact</h2>
+<p>When this policy changes, this page and its "Last updated" date change with it; important changes are also mentioned in the app's update notes.</p>
+<p>Developer: <strong>SerdarGames</strong> (individual developer, shown as the seller on the App Store).<br>
+E-mail: <a href="mailto:helvacikaraserdar@gmail.com">helvacikaraserdar@gmail.com</a> · Support page: <a href="support.html">serdarhelvacikara.github.io/patakla-privacy/support.html</a></p>
 </article>
 
 <hr>
 
+<!-- ============================================================ TÜRKÇE -->
 <article id="tr" lang="tr">
 <h1>Patakla! – Gizlilik Politikası</h1>
-<p class="muted">Yürürlük tarihi: 17 Kasım 2026 · Geliştirici: SerdarGames</p>
+<p class="muted">Yürürlük tarihi: 17 Kasım 2026 · Son güncelleme: 21 Kasım 2026 · Geliştirici: SerdarGames</p>
 
-<h2>Özet</h2>
-<p>Patakla! tamamen internetsiz oynanan, tek oyunculu bir oyundur. <strong>Hiçbir kişisel veri toplamıyor, saklamıyor, paylaşmıyor ve satmıyoruz.</strong>
-Oyunda hesap, reklam, uygulama içi satın alma, analiz, izleme ya da veri toplayan üçüncü taraf yazılım yoktur. Oyun internete bağlanmaz.</p>
+<p><strong>Patakla!</strong>, Kebapçı Usta ve arkadaşlarının Türkiye'deki yedi bölümde çizgi film uzaylılarını kovaladığı, tek oyunculu, iPhone için komik bir dövüş oyunudur. Oyunu App Store'da satıcı olarak görünen bireysel geliştirici <strong>SerdarGames</strong> yapar ("biz"). Oyunun kendine ait hesap sistemi ve sunucusu yoktur; bu yüzden bu sayfa çoğunlukla oyuna eklenmiş iki dış hizmeti anlatır: Google'ın reklamları ve Unity'nin satın alma kitaplığı. <a href="#en" lang="en">English version above.</a></p>
 
-<h2>Cihazında saklananlar</h2>
-<p>Ayarların (ses, müzik, titreşim, kan efektleri, dil) ve ilerlemen (açılan bölümler, yıldızlar, en iyi skorlar, oyun içi "diş" parası, açılan karakterler,
-yardımcılar, silah yükseltmeleri ve kaplamalar, günlük ödül ve günlük görev ilerlemesi) cihazındaki oyunun kendi depolama alanında küçük bir dosyada tutulur.
-Bu dosya cihazından çıkmaz; oyunu silince silinir. Günlük ödüller yalnızca cihazının saatini kullanır; hiçbir yere bir şey gönderilmez.</p>
+<div class="box">
+<p><strong>Kısaca</strong></p>
+<ul>
+  <li>Giriş yapmadan oynarsın. Oyun adını, e-posta adresini, telefon numaranı, rehberini, fotoğraflarını, kameranı, mikrofonunu ya da GPS konumunu hiçbir zaman istemez.</li>
+  <li>İlerlemen iPhone'undaki bir dosyadır. Ondan hiçbir şey bize ulaşmaz: alacak bir sunucumuz yok.</li>
+  <li>Reklamları <strong>Google AdMob</strong> gösterir, reklam tercihlerini Google'ın izin aracı sorar. İkisi de cihaz ve kullanım verisi toplar (bkz. <a href="#tr-google">Google AdMob</a>).</li>
+  <li><strong>REKLAMSIZ</strong> ve diş paketlerinin ödemesini <strong>Apple</strong> alır. App Store ile konuşan kitaplık <strong>Unity In-App Purchasing</strong>, satın alma olaylarını cihaz bilgileriyle Unity'ye bildirir (bkz. <a href="#tr-unity">Unity In-App Purchasing</a>).</li>
+  <li>Seçim senin: reklam izni oyunda, izleme iOS Ayarları'nda; tam ekran reklamları kaldırmak için REKLAMSIZ (bkz. <a href="#tr-choices">Seçeneklerin</a>).</li>
+  <li>Kişisel bilgileri para karşılığında satmayız.</li>
+</ul>
+</div>
 
-<h2>İzinler</h2>
-<p>Oyun kamera, mikrofon, konum, fotoğraf, rehber ya da hareket verisine erişim istemez ve seni izlemek için izin istemez.
-Android'de kısa titreşim için standart titreşim iznini kullanır; titreşimi Ayarlar'dan kapatabilirsin.</p>
+<h2 id="tr-phone">iPhone'unda kalanlar</h2>
+<p>Oyun, telefonda kendi depolama alanında küçük bir kayıt dosyası tutar. İçinde şunlar vardır:</p>
+<ul>
+  <li>ayarlar: ses, müzik, titreşim, yeşil jöle efekti ve dil;</li>
+  <li>ilerleme: açılan bölümler, yıldızlar, en iyi skorlar, Akın Modu rekorları, dişlerin (oyun içi para), açılan karakterler, yardımcılar, silah yükseltmeleri ve kaplamalar, günlük ödül ve günlük görev ilerlemesi;</li>
+  <li>satın alma ve reklam kayıtları: REKLAMSIZ'a sahip olup olmadığın, işlenmiş satın almaların kimlikleri (bir diş paketi asla iki kez eklenmesin diye) ve birkaç reklam sayacı (ör. son tam ekran reklamın ne zaman gösterildiği).</li>
+</ul>
+<p>Google'ın izin aracı da izin tercihini telefonda saklar. Günlük ödüller yalnızca telefonun saatini kullanır. Dosyayı iOS uygulama korumalı alanı (sandbox) korur; oyunu silmek dosyayı da siler. REKLAMSIZ yeniden kurulumdan sonra geri yüklenebilir; dişler ise ilerlemenin geri kalanı gibi yalnızca bu dosyada durur.</p>
 
-<h2>Çocuklar</h2>
-<p>Oyun karikatür/fantastik şiddet içerir ve 13 yaş altına yönelik değildir. Kimseden bilerek veri toplamayız.</p>
+<h2 id="tr-others">Verileri başka kimler alır</h2>
+<p>Yalnızca oyunun çalışması için gereken sağlayıcılar:</p>
+<div class="scroll"><table>
+  <tr><th>Sağlayıcı</th><th>Ne için</th><th>Politika</th></tr>
+  <tr><td>Google (AdMob, Kullanıcı Mesajlaşma Platformu)</td><td>Reklam, reklam ölçümü, izin formu</td><td><a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a></td></tr>
+  <tr><td>Unity Technologies (Unity IAP)</td><td>Uygulama içi satın almaları işleme ve satın alma analizi</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Oyuncu Gizlilik Politikası</a></td></tr>
+  <tr><td>Apple</td><td>Uygulama dağıtımı, ödemeler, izleme izni</td><td><a href="https://www.apple.com/tr/legal/privacy/">Apple Gizlilik Politikası</a></td></tr>
+  <tr><td>Google (Gmail), yalnızca bize e-posta yazarsan</td><td>Destek e-postası</td><td><a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a></td></tr>
+</table></div>
+<p>Her biri kendi gizlilik politikası ve veri koruma koşullarıyla çalışır ve kullanıcı verisini en az bu politikada anlatıldığı kadar korur. Google ve Unity yazılımları verileri şifreli (HTTPS) bağlantıyla gönderir. Oyundan başka hiç kimse veri almaz.</p>
 
-<h2>Bağlantılar</h2>
-<p>Oyundaki "Gizlilik Politikası" düğmesi bu sayfayı tarayıcında açar. Bu ziyarete tarayıcının kendi gizlilik politikası uygulanır.</p>
+<h3 id="tr-google">Google AdMob (reklamlar) ve Google'ın izin aracı</h3>
+<p>Reklamlar iki biçimde çıkar:</p>
+<ul>
+  <li><strong>Tam ekran reklamlar</strong>, bir bölümün ya da bir Akın Modu oyununun sonuç ekranından sonra, devam ederken çıkabilir. Oyunu hiçbir zaman bölmez; Galata Sahili ve Bebek Sahili'ni (ilk iki bölüm) bitirmeden hiç çıkmaz ve birkaç dakikada en fazla bir kez gelir.</li>
+  <li><strong>Ödüllü reklamlar</strong> yalnızca sen istersen oynar: yere serildikten sonra ayağa kalkmak için (her oyunda bir kez) ya da henüz açmadığın bir kahramanla bir oyun oynamak için. Her zaman hayır diyebilirsin. Reklam yüklenemezse (ör. internet yokken) ödülü yine alırsın.</li>
+</ul>
+<p>Reklam göstermek, sıklığını sınırlamak, ölçmek, sahtekârlıkla mücadele etmek ve analiz için uygulamadaki Google yazılımı şunları toplar:</p>
+<ul>
+  <li><strong>Cihaz tanımlayıcıları:</strong> Apple reklam kimliği (IDFA), <strong>yalnızca iOS sorduğunda izlemeye izin verirsen</strong>; aksi hâlde bu uygulama ya da geliştiriciyle sınırlı tanımlayıcılar (ör. satıcı tanımlayıcısı IDFV) ve Google'ın uygulamaya özel tanımlayıcıları.</li>
+  <li><strong>IP adresi</strong> ve ondan çıkarılan yaklaşık (kaba) konum (ülke ya da bölge gibi). Google'ın izin aracı da bunu, sana hangi gizlilik kurallarının uygulanacağına karar vermek için kullanır. Oyun GPS konumuna hiçbir zaman erişmez.</li>
+  <li><strong>Reklam etkinliği:</strong> istenen ve gösterilen reklamlar, reklamlara dokunmalar, sonuna kadar izlenen ödüllü reklamlar ve uygulama açılışları.</li>
+  <li><strong>Cihaz ve uygulama bilgileri:</strong> telefon modeli, iOS sürümü, dil ve uygulama sürümü.</li>
+  <li><strong>Tanı verileri:</strong> reklam yazılımının çökme ve performans verileri.</li>
+</ul>
+<p>Kişiselleştirilmiş reklamları yalnızca gerekli izni verdiysen ve izlemeye izin verdiysen görürsün. Aksi hâlde Google, içeriğe ve yaklaşık konuma göre seçilen kişiselleştirilmemiş ya da sınırlı reklamlar gösterebilir. Oyun, reklamları PG ya da daha düşük dereceli içerikle sınırlar.</p>
+<p><strong>REKLAMSIZ</strong> sahibiysen tam ekran reklam yoktur; ayağa kalkma ve kahraman deneme reklamsız gelir (yine her oyunda bir kez). Sonraki açılıştan itibaren oyun Google'ın reklam yazılımını başlatmaz ve izleme sorusunu göstermez.</p>
+<p>Google, hizmetlerini kullanan uygulamalardaki verileri nasıl kullanır: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">policies.google.com/technologies/partner-sites</a> · Google Gizlilik Politikası: <a href="https://policies.google.com/privacy?hl=tr">policies.google.com/privacy</a></p>
 
-<h2>Değişiklikler</h2>
-<p>İleride veri işleyen bir özellik (ör. reklam ya da satın alma) eklenirse bu politika o sürümden önce güncellenir ve yasanın gerektirdiği izinler oyunda sorulur.</p>
+<h3 id="tr-unity">Unity In-App Purchasing ve Apple</h3>
+<p>Bütün ödemeleri Apple işler. Kart ya da ödeme bilgini hiçbir zaman görmeyiz; gerçek para fiyatlarını App Store senin para biriminle gösterir.</p>
+<p>Oyun, App Store ile konuşmak için Unity Technologies'in <strong>Unity In-App Purchasing</strong> kitaplığını kullanır. Bir satın alma başladığında, tamamlandığında ya da başarısız olduğunda kitaplık Unity'ye bir <strong>satın alma olayı</strong> gönderir: ürün, fiyat ve para birimi, işlem kimliği ve Apple'ın işlem verisi, zaman; ayrıca cihaz bilgileri: telefon modeli, iOS sürümü, dil ve bölge ayarları, toplam depolama kapasitesi, telefonun son açılışından beri geçen süre, uygulama sürümü, satıcı tanımlayıcısı (IDFV) ve rastgele bir Unity kurulum kimliği ile oturum kimliği. Unity bunları satın alma hizmetini çalıştırmak, güvenliğini sağlamak ve analiz etmek için kullanır. Kitaplık, reklam kimliğini (IDFA) okumayacak biçimde ayarlanmıştır. Unity'nin politikası: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a>.</p>
 
-<h2>İletişim</h2>
-<p>E-posta: <a href="mailto:helvacikaraserdar@gmail.com">helvacikaraserdar@gmail.com</a> · Destek sayfası: <a href="support.html#tr">serdarhelvacikara.github.io/patakla-privacy/support.html</a></p>
+<h2 id="tr-buying">Oyundaki satın almalar</h2>
+<ul>
+  <li><strong>REKLAMSIZ</strong> bir kez alınır ve Apple Hesabına bağlıdır. İstediğin zaman <strong>DÜKKÂN → SATIN ALIMLARI GERİ YÜKLE</strong> ya da <strong>AYARLAR → SATIN ALIMLARI GERİ YÜKLE</strong> ile geri yükleyebilirsin.</li>
+  <li><strong>Diş paketleri</strong> tüketilebilir. Her biri oyun içi cüzdanına sabit sayıda diş ekler ve bu sayı satın almadan önce gösterilir. Dişlerin süresi dolmaz, rastgele ödül yoktur; satın alınan dişler ilerlemenin geri kalanıyla birlikte yalnızca telefonunda saklanır.</li>
+  <li>Diş fiyatlı her şey (karakterler, yardımcılar, yükseltmeler ve kaplamalar) oyunda da kazanılabilir. Her satın alma isteğe bağlıdır.</li>
+</ul>
+
+<h2 id="tr-choices">Seçeneklerin</h2>
+<ul>
+  <li><strong>Reklam izni</strong> (AEA, Birleşik Krallık, İsviçre ve bunu gerektiren diğer bölgeler): Google'ın izin formu ilk oynadığında çıkar. Seçimini sonra gözden geçirmek, değiştirmek ya da geri çekmek için ana menüde <strong>AYARLAR</strong>'ı aç ve <strong>REKLAM İZİNLERİ</strong>'ne dokun. Düğme, bölgen bir izin seçimi gerektirdiği sürece oradadır.</li>
+  <li><strong>İzleme</strong> (Uygulama İzleme Şeffaflığı): iOS, Patakla!'nın seni izleyip izleyemeyeceğini bir kez sorar. Cevabını istediğin zaman iOS <strong>Ayarlar → Gizlilik ve Güvenlik → İzleme</strong> ya da <strong>Ayarlar → Patakla! → İzlemeye İzin Ver</strong> bölümünden değiştirebilirsin. İzin vermezsen reklam kimliği kullanılmaz ve başka şirketlerin uygulama ve sitelerinde izlenmezsin. Oyun iki durumda da aynen oynanır.</li>
+  <li><strong>Google reklam kişiselleştirme:</strong> <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+  <li><strong>ABD eyalet gizlilik yasaları</strong> (Kaliforniya ve diğerleri): hedefli reklam için kişisel bilgilerin "satışını" ya da "paylaşımını" reddetmek için izlemeyi kapalı tut ve görünüyorsa AYARLAR → REKLAM İZİNLERİ'ni kullan. Google oyunda ABD eyaletlerine özel bir gizlilik mesajı gösterirse seçimini orada da yapabilirsin.</li>
+  <li><strong>Hiç tam ekran reklam olmasın:</strong> DÜKKÂN'dan REKLAMSIZ al.</li>
+</ul>
+
+<h2 id="tr-keeping">Hukuki dayanaklar, aktarımlar ve saklama süresi</h2>
+<p>GDPR ya da Birleşik Krallık GDPR'ının geçerli olduğu yerlerde kişiselleştirilmiş reklamların, izne bağlı reklam ölçümünün ve reklam kimliğine erişimin dayanağı, Google'ın izin formunda ve Apple'ın izleme sorusunda verdiğin <strong>açık rızadır</strong>. Oyunun sürmesini sağlayan kişiselleştirilmemiş ya da sınırlı reklamlar, sahtekârlığın önlenmesi ve tanı verileri <strong>meşru menfaate</strong> dayanır. Satın almanın işlenmesi, <strong>aldığın şeyi teslim etmek için gereklidir</strong>. Google ve Unity verileri Amerika Birleşik Devletleri dahil ülken dışında, Avrupa Komisyonu'nun Standart Sözleşme Maddeleri ya da AB–ABD Veri Gizliliği Çerçevesi gibi güvencelere dayanarak işleyebilir.</p>
+<ul>
+  <li>Telefonundaki kayıt dosyası oyunu silene kadar kalır.</li>
+  <li>Oyundan hiçbir şey saklamadığımız için silebileceğimiz bir şey yoktur. Destek e-postaları istek üzerine silinir.</li>
+  <li>Google reklam verilerini <a href="https://policies.google.com/technologies/retention?hl=tr">policies.google.com/technologies/retention</a> adresinde anlatıldığı gibi saklar; Unity ve Apple verileri kendi politikalarına göre saklar.</li>
+</ul>
+
+<h2 id="tr-rights">Hakların</h2>
+<p>Yaşadığın yere göre KVKK, GDPR / Birleşik Krallık GDPR ya da ABD eyalet yasaları (ör. CCPA/CPRA) sana kişisel verilerin üzerinde şu hakları tanıyabilir: verilerini görme, düzelttirme, sildirme ya da başka yere götürebileceğin bir kopyasını alma; kullanılmasına itiraz etme ya da sınırlandırma; rızanı dilediğin an geri çekme (önceki işlemeyi etkilemez); satışını ya da paylaşımını ve hedefli reklamı reddetme; bu hakları kullandığın için farklı muamele görmeme. Yerel veri koruma otoritesine (Türkiye'de Kişisel Verileri Koruma Kurumu) şikâyette de bulunabilirsin.</p>
+<p>Google ya da Unity'deki veriler için bu hakları kullanmak istersen yukarıdaki bağlantılardaki gizlilik araçlarını kullan ya da bize yaz; talebini iletmene yardım ederiz. Seni tanımlayan hiçbir veri bize ulaşmadığı için kayıtlara kendimiz bakamayız.</p>
+
+<h2 id="tr-children">Çocuklar ve yaş derecesi</h2>
+<p>Patakla!'da karikatür/fantastik şiddet vardır ve oyun App Store'da 13+ yaş derecesi taşır. 13 yaş altındaki çocuklar için yapılmadı; 13 yaşından (ya da yaşadığın yerdeki asgari yaştan) küçüklerden bilerek kişisel bilgi toplamayız. Reklamlar PG ya da daha düşük dereceli içerikte kalır. Ebeveynler Ekran Süresi ve iOS gizlilik ayarlarıyla satın almaları ve izlemeyi denetleyebilir. Bir çocuğun kişisel bilgi paylaşmış olabileceğini düşünüyorsan bize yaz; Google ya da Unity'den silinmesini istemene yardım ederiz.</p>
+
+<h2 id="tr-email">Bize e-posta yazarsan</h2>
+<p>Oyun bize hiçbir şey göndermez; hesap sistemimiz, kendi analiz aracımız ve sunucumuz olmadığı için tek tek oyuncuları göremez ya da arayamayız. E-posta yazarsan adresini ve mesajını alırız. Bunları yalnızca yanıt vermek için kullanır, istediğinde sileriz.</p>
+
+<h2 id="tr-contact">Değişiklikler ve iletişim</h2>
+<p>Bu politika değişirse bu sayfa ve "Son güncelleme" tarihi de değişir; önemli değişiklikler uygulamanın güncelleme notlarında da belirtilir.</p>
+<p>Geliştirici: <strong>SerdarGames</strong> (bireysel geliştirici; App Store'da satıcı olarak görünür).<br>
+E-posta: <a href="mailto:helvacikaraserdar@gmail.com">helvacikaraserdar@gmail.com</a> · Destek sayfası: <a href="support.html#tr">serdarhelvacikara.github.io/patakla-privacy/support.html</a></p>
 </article>
 </main>
 <script>
